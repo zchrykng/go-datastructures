@@ -3,7 +3,7 @@ package containers
 type JSONSerializer interface {
 	ToJSON() ([]byte, error)
 
-	MarshelJSON() ([]byte, error)
+	MarshalJSON() ([]byte, error)
 }
 
 type JSONDeserializer interface {
